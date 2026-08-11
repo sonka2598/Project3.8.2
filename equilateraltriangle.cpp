@@ -3,5 +3,5 @@
 EquilateralTriangle::EquilateralTriangle(double a)
     : Triangle(a, a, a, 60.0, 60.0, 60.0)
 {
-    name = "Равносторонний треугольник";
+    name = "Р Р°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє";
 }
