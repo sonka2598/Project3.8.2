@@ -3,5 +3,9 @@
 RightTriangle::RightTriangle(double a, double b, double c, double A, double B)
     : Triangle(a, b, c, A, B, 90.0)
 {
-    name = "Прямоугольный треугольник";
+    if (C != 90) {
+        throw FigureException("РЈРіРѕР» C РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ СЂР°РІРµРЅ 90");
+    }
+
+    name = "РџСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє";
 }
