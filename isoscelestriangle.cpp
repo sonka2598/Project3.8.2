@@ -3,5 +3,9 @@
 IsoscelesTriangle::IsoscelesTriangle(double a, double b, double A, double B)
     : Triangle(a, b, a, A, B, A)
 {
-    name = "�������������� �����������";
+    if (a != c || A != C) {
+        throw FigureException("Треугольник не равнобедренный");
+    }
+
+    name = "Равнобедренный треугольник";
 }
